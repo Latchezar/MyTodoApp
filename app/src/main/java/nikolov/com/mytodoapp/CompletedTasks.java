@@ -1,12 +1,10 @@
-package nikolov.com.mytodoapp.fragments;
+package nikolov.com.mytodoapp;
 
 import android.support.v4.app.Fragment;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-
-import nikolov.com.mytodoapp.R;
 
 
 public class CompletedTasks extends Fragment{
