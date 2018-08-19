@@ -23,7 +23,7 @@
     <ListView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/todo_list"
+        android:id="@+id/all_tasks"
         />
 
 </android.support.constraint.ConstraintLayout>
