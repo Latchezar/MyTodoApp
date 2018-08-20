@@ -9,4 +9,12 @@
     <string name="section_three">Section Three</string>
     <string name="section_format">Hello World from section: %1$d</string>
     <string name="add_new_btn">Add New</string>
+    <string name="add_task_title">Add New Task</string>
+    <string name="new_name">Type your task name</string>
+    <string name="new_end_date">Type end date</string>
+    <string name="prioritytype">Choose Priority</string>
+    <string name="taskpriority1">high</string>
+    <string name="taskpriority2">medium</string>
+    <string name="taskpriority3">low</string>
+    <string name="create_new_button">Create Task</string>
 </resources>
