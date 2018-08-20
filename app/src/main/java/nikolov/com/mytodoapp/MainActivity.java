@@ -1,4 +1,5 @@
 package nikolov.com.mytodoapp;
+import nikolov.com.mytodoapp.R;
 
 import android.support.design.widget.TabLayout;
 import android.support.design.widget.FloatingActionButton;
@@ -14,6 +15,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+
 
 public class MainActivity extends AppCompatActivity {
     /**
@@ -105,17 +107,15 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public Fragment getItem(int position) {
             switch (position){
-                case 0:
-                    tab1 = tab1.getInstance();
-                    return tab1;
                 case 1:
-                    tab2 = tab2.getInstance();
+                    tab2 = AllTasks.getInstance();
                     return tab2;
                 case 2:
-                    tab3 = tab3.getInstance();
+                    tab3 = CompletedTasks.getInstance();
                     return tab3;
                 default:
-                    return null;
+                    tab1 = CurrentTasks.getInstance();
+                    return tab1;
 
             }
         }

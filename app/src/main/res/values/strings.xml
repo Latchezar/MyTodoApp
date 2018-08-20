@@ -1,11 +1,12 @@
 <resources>
     <string name="app_name">MyTodoApp</string>
     <string name="tab_text_1">Current Tasks</string>
-    <string name="tab_text_2">Completed Tasks</string>
-    <string name="tab_text_3">All Tasks</string>
+    <string name="tab_text_2">All Tasks</string>
+    <string name="tab_text_3">Completed Tasks</string>
     <string name="action_settings">Settings</string>
     <string name="section_one">Section One</string>
     <string name="section_two">Section Two</string>
     <string name="section_three">Section Three</string>
     <string name="section_format">Hello World from section: %1$d</string>
+    <string name="add_new_btn">Add New</string>
 </resources>
