@@ -1,5 +1,6 @@
 package nikolov.com.mytodoapp;
 
+import android.content.Intent;
 import android.support.v4.app.Fragment;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -54,6 +55,10 @@ public class CurrentTasks extends Fragment implements AdapterView.OnItemClickLis
 
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-
+        String name = mCurrentAdapter.getItem(position);
+        Intent intent = new Intent(getContext(), TaskDetailsActivity.class);
+        intent.putExtra("TASK_NAME", name);
+        startActivity(intent);
+        getActivity().finish();
     }
 }
